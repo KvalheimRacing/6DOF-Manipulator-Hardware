@@ -1,6 +1,5 @@
-# CrustCrawler Hardware
-This repository contains ROS code for connecting with the real CrustCrawler
-hardware.
+# 6DOF-Manipulator-Hardware
+This repo contains controllers and ROS code for connecting with the hardware on the robot arm.
 
 ## Install
 First clone or copy this repository into your [workspace][1] `src`.
