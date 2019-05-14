@@ -1,0 +1,25 @@
+crustcrawler:
+  # Publish all joint states -----------------------------------
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 60
+
+  # Velocity Controllers ---------------------------------------
+  joint1_controller:
+    type: velocity_controllers/JointVelocityController
+    joint: joint_1
+  joint2_controller:
+    type: velocity_controllers/JointVelocityController
+    joint: joint_2
+  joint3_controller:
+    type: velocity_controllers/JointVelocityController
+    joint: joint_3
+  joint4_controller:
+    type: velocity_controllers/JointVelocityController
+    joint: joint_4
+  joint5_controller:
+    type: velocity_controllers/JointVelocityController
+    joint: joint_5
+  joint6_controller:
+    type: velocity_controllers/JointVelocityController
+    joint: joint_6

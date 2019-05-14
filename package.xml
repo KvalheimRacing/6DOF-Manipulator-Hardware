@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="2">
+	<name>crustcrawler_hardware</name>
+	<version>0.1.0</version>
+	<description>ROS hardware interface for Crustcrawler robot</description>
+
+	<maintainer email="jorgehn@student.matnat.uio.no">Jørgen Nordmoen</maintainer>
+	<license>MIT</license>
+
+	<author>Jørgen Nordmoen</author>
+
+	<buildtool_depend>catkin</buildtool_depend>
+	<depend>controller_manager</depend>
+	<depend>diagnostic_updater</depend>
+	<depend>dynamixel_sdk</depend>
+	<depend>hardware_interface</depend>
+	<depend>roscpp</depend>
+	<depend>std_msgs</depend>
+	<exec_depend>crustcrawler_description</exec_depend>
+	<exec_depend>ros_controllers</exec_depend>
+
+	<export>
+	</export>
+</package>

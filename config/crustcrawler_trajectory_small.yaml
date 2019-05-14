@@ -1,0 +1,12 @@
+crustcrawler:
+  # Publish all joint states -----------------------------------
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 60
+
+  controller:
+    type: "position_controllers/JointTrajectoryController"
+    joints:
+      - joint_1
+      - joint_2
+      - joint_3
